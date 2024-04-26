@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif !important;
+  overflow-x: hidden;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.logo {
+  width: 45px;
+  margin-left: 20px;
+}
+.banner-section {
+  background: linear-gradient(0deg, rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(./Assets/banner-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.ourstory-banner {
+  background: linear-gradient(0deg, rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(./Assets/ourStory-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.ourstory-footer-section {
+  background: linear-gradient(0deg, rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(./Assets/ourStory-footer-bg.webp);
+  background-position: center;
+  background-size: cover;
+}
+.banner-heading {
+  font-family: 'Times New Roman', Times, serif !important;
+}
+.banner-description {
+  font-size: 16px;
+  line-height: 30px;
+}
+.banner-cta {
+  padding: 12px 25px;
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  transition: all .5s;
+  font-size: 16px;
+  font-weight: 500;
+}
+.banner-cta:hover {
+  background-color: rgba(255,255,255,.5);
+}
+.section-img {
+  width: 80%;
+  border-radius: 16px;
+}
+.section-heading {
+  font-weight: 600;
+}
+.section-description {
+  font-size: 18px;
+  line-height: 30px;
+  color: #666;
+}
+.section-bg-dark {
+  background-color: #02084B;
+}
+.section-bg-dark .section-heading { 
+  color: #FE4400;
+}
+.section-bg-light {
+   background-color: #f5f5f5;
+}
+.section-bg-light .section-heading {
+  color:  #3e4444;
+}
+.footer-heading {
+  background-color: #02084B;
+  padding: 16px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+.header-links img {
+  width: 25px;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #02084B;
+}
+
+/* our story */
+.history-card {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  margin: 0px auto !important;
+}
+.history-card .slider-img {
+  max-width: 460px;
+}
+.history-card .slider-heading {
+  color: #FE4400;
+}
+.history-card .slider-description {
+  font-size: 16px;
+  line-height: 26px;
+}
+.history-slider .owl-nav {
+  position: absolute;
+  right: 90px;
+  bottom: -15px;
+}
+.history-slider .owl-nav button.owl-prev,
+.history-slider .owl-nav button.owl-next {
+  background-color: #fff !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 12px 0px #898484;
+}
+.history-slider .owl-nav .owl-prev {
+  margin-right: 10px;
+}
+.history-slider .owl-nav .owl-prev span,
+.history-slider .owl-nav .owl-next span {
+  font-size: 24px;
+}
+@media screen and (max-width:575px) {
+  .section-heading {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner-section,
+  .ourstory-banner  {
+    padding: 80px 0px;
+  }
+  .banner-heading {
+    font-size: 40px;
+  }
+  .footer-heading {
+    font-size: 14px;
+  }
+  .history-card {
+    padding: 15px;
+  }
+  .history-slider .owl-nav {
+    right: 10px;
+    bottom: -50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner-section,
+  .ourstory-banner {
+    padding: 120px 0px;
+  }
+  .banner-heading {
+    font-size: 60px;
+  }
+  .footer-heading {
+    font-size: 20px;
+  }
+  .history-card {
+    padding: 40px;
+    width: 90%;
+  }
+  .history-slider .owl-nav {
+    right: 80px;
+    bottom: -15px;
+  }
+}
+@media screen and (min-width:576px) and (max-width: 991px) {
+  .section-heading {
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .text-medium-center {
+    margin: 0px auto;
+  }
+  .custom-padding {
+    padding: 80px 0px;
+  }
+  .history-card .slider-heading {
+    font-size: 22px;
+    line-height: 34px;
+  }
+}
+@media screen and (min-width:992px) {
+  .banner-description {
+    width: 80%;
+  }
+  .custom-padding {
+    padding: 100px 0px;
+  }
+  .history-card .slider-heading {
+    font-size: 34px;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+  .section-heading {
+    font-size: 35px;
+    line-height: 46px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .section-heading {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
