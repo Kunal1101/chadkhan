@@ -26,6 +26,11 @@ p {
   background-position: center;
   background-size: cover;
 }
+.ourwork-banner {
+  background: linear-gradient(0deg, rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(./Assets/ourWork-bg.png);
+  background-position: center;
+  background-size: cover;
+}
 .banner-heading {
   font-family: 'Times New Roman', Times, serif !important;
 }
@@ -94,36 +99,53 @@ p {
   border-radius: 12px;
   margin: 0px auto !important;
 }
+.product-card {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  min-height: 450px;
+}
 .history-card .slider-img {
   max-width: 460px;
 }
-.history-card .slider-heading {
+.history-card .slider-heading,
+.product-card .product-name {
   color: #FE4400;
+}
+.product-card .product-name {
+  font-size: 20px;
 }
 .history-card .slider-description {
   font-size: 16px;
   line-height: 26px;
 }
-.history-slider .owl-nav {
+.history-slider .owl-nav,
+.product-slider .owl-nav {
   position: absolute;
-  right: 90px;
-  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -60px;
 }
 .history-slider .owl-nav button.owl-prev,
-.history-slider .owl-nav button.owl-next {
+.history-slider .owl-nav button.owl-next,
+.product-slider .owl-nav button.owl-prev,
+.product-slider .owl-nav button.owl-next {
   background-color: #fff !important;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   box-shadow: 1px 2px 12px 0px #898484;
 }
-.history-slider .owl-nav .owl-prev {
+.history-slider .owl-nav .owl-prev,
+.product-slider .owl-nav .owl-prev {
   margin-right: 10px;
 }
 .history-slider .owl-nav .owl-prev span,
-.history-slider .owl-nav .owl-next span {
+.history-slider .owl-nav .owl-next span,
+.product-slider .owl-nav button.owl-prev span,
+.product-slider .owl-nav button.owl-next span {
   font-size: 24px;
 }
+
 @media screen and (max-width:575px) {
   .section-heading {
     font-size: 24px;
@@ -132,7 +154,8 @@ p {
 }
 @media screen and (max-width: 767px) {
   .banner-section,
-  .ourstory-banner  {
+  .ourstory-banner,
+  .ourwork-banner   {
     padding: 80px 0px;
   }
   .banner-heading {
@@ -148,10 +171,14 @@ p {
     right: 10px;
     bottom: -50px;
   }
+  .product-card {
+    padding: 15px;
+  }
 }
 @media screen and (min-width: 768px) {
   .banner-section,
-  .ourstory-banner {
+  .ourstory-banner,
+  .ourwork-banner  {
     padding: 120px 0px;
   }
   .banner-heading {
@@ -163,6 +190,9 @@ p {
   .history-card {
     padding: 40px;
     width: 90%;
+  }
+  .product-card {
+    padding: 25px;
   }
   .history-slider .owl-nav {
     right: 80px;
