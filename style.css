@@ -120,8 +120,6 @@ p {
 }
 .history-slider .owl-nav {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   bottom: -60px;
 }
 .product-slider .owl-nav {
