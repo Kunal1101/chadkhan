@@ -118,7 +118,12 @@ p {
   font-size: 16px;
   line-height: 26px;
 }
-.history-slider .owl-nav,
+.history-slider .owl-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -60px;
+}
 .product-slider .owl-nav {
   position: absolute;
   left: 50%;
