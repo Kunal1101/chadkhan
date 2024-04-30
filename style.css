@@ -37,6 +37,11 @@ button:focus:not(:focus-visible) {
   background-position: center;
   background-size: cover;
 }
+.contact-section {
+  background: linear-gradient(0deg, rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(./Assets/banner-bg.png);
+  background-position: center;
+  background-size: cover;
+}
 .banner-heading {
   font-family: 'Times New Roman', Times, serif !important;
 }
@@ -151,7 +156,21 @@ button:focus:not(:focus-visible) {
 .product-slider .owl-nav button.owl-next span {
   font-size: 24px;
 }
-
+.contact-section .header-links img {
+  filter: invert(1);
+}
+.store-container .store-card {
+  width: 100%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 16px;
+}
+.store-card .store-img {
+  width: 40px;
+}
+.store-card .store-name {
+  font-size: 20px;
+}
 @media screen and (max-width:575px) {
   .section-heading {
     font-size: 24px;
@@ -161,7 +180,8 @@ button:focus:not(:focus-visible) {
 @media screen and (max-width: 767px) {
   .banner-section,
   .ourstory-banner,
-  .ourwork-banner   {
+  .ourwork-banner,
+  .contact-section   {
     padding: 80px 0px;
   }
   .banner-heading {
@@ -184,7 +204,8 @@ button:focus:not(:focus-visible) {
 @media screen and (min-width: 768px) {
   .banner-section,
   .ourstory-banner,
-  .ourwork-banner  {
+  .ourwork-banner,
+  .contact-section  {
     padding: 120px 0px;
   }
   .banner-heading {
