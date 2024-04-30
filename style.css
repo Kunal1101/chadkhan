@@ -132,9 +132,11 @@ button:focus:not(:focus-visible) {
 .history-slider .owl-nav,
 .product-slider .owl-nav {
   position: absolute;
+  bottom: -60px;
+}
+.product-slider .owl-nav {
   left: 50%;
   transform: translateX(-50%);
-  bottom: -60px;
 }
 .history-slider .owl-nav button.owl-prev,
 .history-slider .owl-nav button.owl-next,
