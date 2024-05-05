@@ -189,6 +189,12 @@ button:focus:not(:focus-visible) {
   padding: 20px;
   background-color: #02084b;
   border-radius: 16px;
+  text-decoration: none;
+  transition: all .5s;
+}
+.store-container .store-card:hover {
+  transform: translateY(-10px);
+  text-decoration: none;
 }
 .store-card .store-img {
   width: 40px;
@@ -278,7 +284,7 @@ button:focus:not(:focus-visible) {
   }
   .navbar-brand {
     position: absolute;
-    left: 70px;
+    right: 0px;
     top: 0px;
   }
 }
