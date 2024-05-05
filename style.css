@@ -29,7 +29,7 @@ button:focus:not(:focus-visible) {
   background-size: cover;
 }
 .ourstory-banner {
-  background: linear-gradient(0deg, rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(./Assets/ourStory-bg.png);
+  background: linear-gradient(0deg, rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(./Assets/ourStory-bg.jpeg);
   background-position: center;
   background-size: cover;
 }
